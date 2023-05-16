@@ -1,0 +1,320 @@
+/* Estilos globales */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto 100vw; 
+  }
+  
+  /* header */
+  
+  .header__container{
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: auto;
+  background-color: rgba(16, 16, 16, 0.92);
+  box-shadow: 0px 2px 60px rgba(0, 0, 0,);
+  text-align: center;
+  z-index: 1;
+  }
+  
+  .header__container ul{
+  display: flex;  
+  justify-content: center;  
+  gap:5px;
+  line-height: 40px;
+  list-style: none;
+  }
+  .header__container ul li a{
+  text-decoration: none;
+  color: white;
+  margin:  0 40px 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family:Georgia, 'Times New Roman', Times, serif
+  
+  }
+  .header__container ul li a:hover{
+    color: rgb(11, 8, 3);
+    font-size:40px; 
+  }
+  
+
+  /* banner */
+  .banner{
+    height: 40vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: url("../imagenes/desktop-wallpaper-selena-gomez-aesthetic-selena-gomez.jpg");
+    background-position: center center;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    ;
+  }
+  .banner__text{
+  z-index: 1;  
+  }
+  
+  .banner::before{
+    position: absolute;
+    content:  "";
+    top: 0;
+    left: 0;
+    width: 60px;%;
+    height: 60%;
+    font-family: 'Dancing Script', cursive;
+    
+  } 
+  .banner__text h1{
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+    font-size: 70px;
+  }
+  .banner__text p{
+    font: weight 80px;px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .banner__text a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgb(12, 12, 12);;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 24px;
+   
+  }
+  .banner__text a:hover{
+    background-color: rgb(237, 57, 222);
+    
+  }
+  /* about*/
+  
+  .about{
+    gap: 10px;
+    text-align: center;
+    background-color: rgb(239, 177, 239);
+    display: inline-block;
+  }
+  .section-header{
+    margin-bottom: 0px;
+  }
+  
+  
+  .section-header h2{
+    font-size: 30px;
+    color:#070707a8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        text-align:center;
+    text-transform: uppercase;
+    padding-top:10px;
+  }
+  
+  
+  .section-header p{
+   
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(163, 74, 74);
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  .single-about img{
+    width: 50%;
+    object-fit: cover;
+    padding-top: 20px;
+  }
+
+
+  
+  
+  .actriz{
+    padding: 20px 20px 20px;
+    text-align: center;
+    background-color: rgba(7, 7, 7, 0.869);
+  }
+  .section-header h2{
+  font-size: 50px;
+  padding: 20px;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+        
+  .section-header p{
+    margin: 20;
+    font-size: 25px;
+    line-height: 1,9;
+    padding-top: 30px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .service-content{
+    display: flex;
+  }
+  
+  .service-content img{
+    width: 30%;
+    size: 40%;
+  }
+
+ 
+  
+  .service-content h2{
+    text-transform: uppercase;
+    margin: 70px 0;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(222, 185, 220);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-transform: uppercase;
+   
+  }
+  .service-content p{
+    margin: 20;
+    font-size: 25px;
+    line-height: 1,9;
+    padding-top: 30px;
+    color: rgb(240, 243, 246);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }  
+  /* cantante*/ 
+  .MUSICA{
+    background-color:rgb(241, 167, 181);
+    padding: 20px 20px 20px;
+    text-align: center;
+  }
+
+    .MUSICA h2{
+        text-transform: uppercase;
+        margin: 70px 0;
+        text-align: center;
+        font-size: 50px;
+        color:rgb(245, 245, 246);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        text-transform: uppercase;  
+    }
+    .MUSICA p{
+    margin: 20;
+    font-size: 25px;
+    line-height: 1,9;
+    padding-top: 30px;
+    color: rgb(240, 243, 246);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+    }
+
+
+
+  }
+
+  
+
+
+
+  /* contact*/
+  
+  
+  
+  .contact{
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(239, 177, 239);
+  }
+  
+  .single-contact{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .single-contact input{
+    width: 90%;
+    height: 50px;
+    margin:10px;
+    border: none;
+    border-bottom: 3px solid #bf7645a8;
+  }
+  
+  .single-contact textarea{
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid #bf7645a8;
+  }
+  
+  .single-contact input: :last-child{
+    background-color: #bf7645a8;
+  }
+  .footer{
+  background-color: #bf7645a8;
+  color: aliceblue;
+  line-height: 2;
+  text-align: center;
+  }
+  
+  
+
+
+  @media (min-width:799px){
+    .header__container{}
+    .banner{
+        width: 50%;
+        font-size: small;
+    }
+   
+  }
+
+
+  
+ 
+  @media (max-width:1023px){
+    .header__container{
+        left: 80%;
+        width: 400%;
+     
+    }
+    .banner{}
+    .about{}
+    .actriz{}
+    .MUSICA{}
+    .contact{}
+
+  }
+  
+  
+  @media (max-width:1024px){
+    .header__container{
+        left: 100%;
+        width: 100%;
+    }
+    .banner{}
+    .about{}
+    .actriz{}
+    .MUSICA{}
+    .contact{}
+
+  }
+  
+
+
+  
+    
